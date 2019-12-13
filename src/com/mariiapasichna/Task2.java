@@ -8,10 +8,7 @@ public class Task2 {
 Например кирпич со сторонами 2,3,2 не пройдет в отверстие 1x50.*/
 
     public static void main(String[] args) {
-        int brick[] = new int[3];
-        brick[0] = 5;
-        brick[1] = 1;
-        brick[2] = 12;
+        int brick[] = {5, 1, 12};
         int x = 23;
         int y = 2;
         int minPort = Math.min(x, y);
